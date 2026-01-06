@@ -1,0 +1,44 @@
+/* style.css */
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #0f172a, #1e293b);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.card {
+    background: linear-gradient(135deg, #ffffff, #f1f5f9);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+button {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #1d4ed8, #1e40af);
+}
